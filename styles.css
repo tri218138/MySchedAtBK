@@ -1,0 +1,66 @@
+body{
+    background-color: cyan;
+    font-size: 17px;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+#HK-main{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#HK-diagram{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#HK-ThS{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row{
+    /* display: flex; */
+    padding: 2em;
+}
+
+.name{
+    font-weight:bold;
+    color: blue;
+    font-size: 20px;
+}
+
+.group{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.description{
+    background-color: aquamarine;
+    padding: 1em;
+}
+
+.normal{
+    display: inline-block;
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h1{
+    color: whitesmoke; 
+    text-align: center; 
+    background-color: blueviolet; 
+    margin: 0px;
+    padding: 0.5em 0em;
+}

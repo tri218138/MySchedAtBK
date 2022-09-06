@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+        <title>Thời khóa biểu</title>
+    </head>
+    <body">
+        <div class="container" id="container">
+            <h1>Biểu đồ học kỳ</h1>
+            <div class="row">
+                <h2 id="currentWeek">                    
+                </h2>
+                <form onchange="customDateFunc()">
+                    Chọn ngày cần xem thời gian tuần: <input type="date" id="customDate">
+                    <!-- <input type="submit" value="Gửi"> -->
+                </form>
+                <div>
+                    <table id="HK-diagram">
+                        
+                    </table>
+                    <h2>Ghi chú</h2>
+                    <div style ="padding-left: 1em;">
+                        <ul id="note-diagram">
+                        </ul>
+                    </div>
+                </div>
+                <br>                
+            </div>
+        </div>
+    </body>
+    <script src="./script.js"></script>
+</html>
