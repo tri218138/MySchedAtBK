@@ -31,6 +31,7 @@ table, th, td {
 .row{
     /* display: flex; */
     padding: 2em;
+    
 }
 
 .name{
